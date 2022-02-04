@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Show Code</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <style>
+        body {
+            background-color: #111111;
+            font-family: sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 100;
+            letter-spacing: normal;
+            position: absolute;
+            padding: 0px;
+            margin: 0px;
+            text-align: center;
+            vertical-align: middle;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .text_style {
+            position: relative;
+            text-align: center;
+            width: 100%;
+            top: 50%;
+            color: #FFFFFF;
+            font-size: 150%;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="no_code" class="hidden text_style">Não foi passado um código para esta página!</div>
+        <div id="code" class="hidden text_style"></div>
+    </div>
+</body>
